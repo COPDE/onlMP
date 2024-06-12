@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> onlMP esp beta proto 0.0 </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main-menu">
+        <h1>Bienvenido a este juego onlne en prototipo</h1>
+        <button onclick="startStudio()">Iniciar Estudio</button>
+        <button onclick="chooseDevice()">Seleccionar Dispositivo</button>
+    </div>
+
+    <div id="device-menu" style="display:none;">
+        <h2>Selecciona tu Dispositivo</h2>
+        <button onclick="setDevice('PC')">PC</button>
+        <button onclick="setDevice('Mobile')">Móvil</button>
+        <button onclick="setDevice('Tablet')">Tablet</button>
+        <button onclick="backToMainMenu()">Volver</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

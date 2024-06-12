@@ -1,0 +1,20 @@
+function startStudio() {
+    alert('Iniciando el Estudio...');
+    // Aquí añadirías la lógica para iniciar el estudio
+}
+
+function chooseDevice() {
+    document.getElementById('main-menu').style.display = 'none';
+    document.getElementById('device-menu').style.display = 'block';
+}
+
+function setDevice(device) {
+    alert('Dispositivo seleccionado: ' + device);
+    // Aquí añadirías la lógica para configurar el dispositivo
+    backToMainMenu();
+}
+
+function backToMainMenu() {
+    document.getElementById('device-menu').style.display = 'none';
+    document.getElementById('main-menu').style.display = 'block';
+}
